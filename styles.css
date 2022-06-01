@@ -1,0 +1,183 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #fff;
+}
+
+/* navigation bar */
+
+.navbar {
+    padding-bottom: 50px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-family: 'ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+
+.navbar-nav {
+    padding: 0 12px;
+}
+
+.container-fluid {
+    padding: 4% 17%;
+}
+
+.button {
+    padding-top: 10%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    size: 4rem;
+    line-height: 1.5;
+    padding-top: 25%;
+    color: black;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+    color: black;
+}
+
+
+.iphone1 {
+    transform: rotate(20deg);
+    width: 400px;
+    height: 550px;
+    margin-left: 10%;
+    position: absolute;
+    margin: 3%;
+}
+
+#features {
+    background-color: #fff;
+    padding: 5% 10px;
+    margin: ;
+    position: relative;
+    z-index: 1;
+}
+
+.feature {
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 1.5;
+    color: black;
+}
+
+p {
+    font-family: 'ubuntu', sans-serif;
+}
+
+.icon {
+    color: #5F7161;
+    padding: 10% 10%;
+}
+
+.icon:hover {
+    color: black
+}
+
+/* testimonial section */
+#testimonials {
+    text-align: center;
+    background-color: #6D8B74;
+}
+
+.ios-15 {
+    margin-top: 50px;
+}
+
+.carousel-item {
+    padding: 6% 15%;
+}
+
+/* press */
+#press {
+    text-align: center;
+}
+
+.reviews {
+    padding-top: 5%;
+}
+
+.reviews-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width :1000px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .iphone1 {
+        position: static;
+        transform: rotate(0);
+        width: 360px;
+        height: 475px;
+        margin-top: 25px;
+    }
+
+}
+
+@media (max-width :1330px) and (min-width :990px) {
+    .btn-outline-secondary {
+        margin-top: 5px;
+    }
+
+}
+
+@media (max-width :655px) and (min-width :500px) {
+    .btn-outline-secondary {
+        margin-top: 5px;
+    }
+
+}
+
+#cta {
+    background-color: #5F7161;
+    text-align: center;
+    font-family: 'Montserrat'sans-serif;
+    size: 3.5rem;
+    padding: 7% 10%;
+}
+
+.download {
+    margin-top: 4%;
+}
+
+#footer {
+    text-align: center;
+    margin: 5% 10%;
+}
+
+.social {
+    margin: 0px 10px;
+}
+
+.download {
+    margin: 30px 10px;
+}
